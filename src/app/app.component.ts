@@ -12,7 +12,7 @@ data: any;
   
   constructor(private http: HttpClient){}
 
-  baseAPIUrl : string ='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBSDdRDS-U9Z4mJIDc8DxRGuXCByXkeO34';
+  baseAPIUrl : string ='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAJmaUeYQ5YucYaKxZt13izqFty2vZvI_E';
     
   input:string='';
 
