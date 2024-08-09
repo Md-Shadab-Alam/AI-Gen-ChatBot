@@ -10,9 +10,9 @@ import { Observable } from 'rxjs';
 export class AppComponent implements OnInit {
 data: any;
   
-  constructor(private http: HttpClient){}
+  constructor(private http: HttpClient){ }
 
-  baseAPIUrl : string ='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAJmaUeYQ5YucYaKxZt13izqFty2vZvI_E';
+  baseAPIUrl : string =`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=`;
     
   input:string='';
 
